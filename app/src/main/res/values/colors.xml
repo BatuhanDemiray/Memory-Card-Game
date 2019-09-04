@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#B1AEAE</color>
+    <color name="colorPurple">#4A47A7</color>
+    <color name="colorGame">#5089B9</color>
+    <color name="colorWin">#4DC550</color>
+</resources>
