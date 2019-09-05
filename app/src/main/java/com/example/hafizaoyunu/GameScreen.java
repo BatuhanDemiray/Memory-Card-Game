@@ -128,8 +128,8 @@ public class GameScreen extends AppCompatActivity {
                         if (c.frontID == c2.frontID && c.getId() != c2.getId())
                         {
                             // Eşleştiler
-                            c.isTurnable = false;
-                            c2.isTurnable = false;
+                            c.isTurn = false;
+                            c2.isTurn = false;
                             score++;
                             lastCard = 0;
                             if (score == 8){
@@ -203,8 +203,8 @@ public class GameScreen extends AppCompatActivity {
                         if (c.frontID == c2.frontID && c.getId() != c2.getId())
                         {
                             // Eşleştiler
-                            c.isTurnable = false;
-                            c2.isTurnable = false;
+                            c.isTurn = false;
+                            c2.isTurn = false;
                             score++;
                             lastCard = 0;
                             if (score == 8){
@@ -278,8 +278,8 @@ public class GameScreen extends AppCompatActivity {
                         if (c.frontID == c2.frontID && c.getId() != c2.getId())
                         {
                             // Eşleştiler
-                            c.isTurnable = false;
-                            c2.isTurnable = false;
+                            c.isTurn = false;
+                            c2.isTurn = false;
                             score++;
                             lastCard = 0;
                             if (score == 8){
@@ -353,8 +353,8 @@ public class GameScreen extends AppCompatActivity {
                         if (c.frontID == c2.frontID && c.getId() != c2.getId())
                         {
                             // Eşleştiler
-                            c.isTurnable = false;
-                            c2.isTurnable = false;
+                            c.isTurn = false;
+                            c2.isTurn = false;
                             score++;
                             lastCard = 0;
                             if (score == 8){
@@ -428,8 +428,8 @@ public class GameScreen extends AppCompatActivity {
                         if (c.frontID == c2.frontID && c.getId() != c2.getId())
                         {
                             // Eşleştiler
-                            c.isTurnable = false;
-                            c2.isTurnable = false;
+                            c.isTurn = false;
+                            c2.isTurn = false;
                             score++;
                             lastCard = 0;
                             if (score == 8){
@@ -503,8 +503,8 @@ public class GameScreen extends AppCompatActivity {
                         if (c.frontID == c2.frontID && c.getId() != c2.getId())
                         {
                             // Eşleştiler
-                            c.isTurnable = false;
-                            c2.isTurnable = false;
+                            c.isTurn = false;
+                            c2.isTurn = false;
                             score++;
                             lastCard = 0;
                             if (score == 8){
