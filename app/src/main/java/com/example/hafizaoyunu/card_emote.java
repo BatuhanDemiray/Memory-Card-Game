@@ -10,7 +10,7 @@ import androidx.appcompat.widget.AppCompatDrawableManager;
 public class card_emote extends AppCompatButton {
 
     boolean isOpen = false;
-    boolean isTurnable = true;
+    boolean isTurn = true;
     int backID;
     int frontID;
     Drawable back, front;
@@ -45,7 +45,7 @@ public class card_emote extends AppCompatButton {
 
     public void turn()
     {
-        if (isTurnable)
+        if (isTurn)
         {
             if (!isOpen) // Kapalı ise
             {
